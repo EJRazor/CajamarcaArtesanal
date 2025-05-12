@@ -1,0 +1,16 @@
+.activo{
+    background-color: #fbfff1;
+}
+
+.activo a{
+    font-weight: bolder;
+    color: #654328;
+}
+section{
+    display: flex;
+    justify-content: center;
+    background-color: #fbfff1;
+}
+h1{
+    text-align: center;
+}

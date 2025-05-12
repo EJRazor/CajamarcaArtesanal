@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;   
+   }
+   
+   .logo{
+       height: 20vh;
+       weight: 20vw;
+   }
+   
+   li{
+       list-style: none;
+       border: 1px, solid, black;
+   }
+   
+   a{
+       color: black;
+       text-decoration: none;
+   }
+   
+   .activo{
+       background-color: #fbfff1;
+   }
+   
+   .activo a{
+    font-weight: bolder;
+    color: #654328;
+    }
+
+    li a:hover{
+ font-weight: bolder;
+ color: #654328;
+    }
+
+    main{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+   section{
+       display: flex;
+       justify-content: center;
+       margin-top: 1%;
+       border: 2px, solid, #654328;       
+   }
+
+   section img{
+    margin: 4%;
+    height: 30vh;
+    width: 30vw;
+   }
+
+   section article{
+    align-content: center;
+   }
+
+   .parrafo{
+    margin-right: 50px;
+    margin-left: 50px;
+    border: 2px, solid, black;
+   }
+
+   h1{
+       text-align: center;
+   }   
+   
+   .iconos{
+       height: 5vh;
+       weight: 5vw;
+   }
+
+   footer{
+    margin-top: 2rem;
+   }
