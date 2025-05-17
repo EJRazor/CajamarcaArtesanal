@@ -1,42 +1,36 @@
-*{
+* {
     margin: 0;
-    padding: 0;   
-   }
-   
-   .logo{
-       height: 20vh;
-       weight: 20vw;
-   }
-   
-   li{
-       list-style: none;
-       border: 1px, solid, black;
-   }
-   
-   a{
-       color: black;
-       text-decoration: none;
-   }
-   
-   .activo{
-       background-color: #fbfff1;
-   }
-   
-   .activo a{
+    padding: 0;
+}
+
+body {
+    background-color: #fbfff1;
+}
+
+.logo {
+    max-height: 300px;
+}
+
+nav {
+    background-color: #fbfff1;
+}
+
+.activo {
+    font-weight: bolder;
+    background-color: #fbfff1;
+}
+
+/* .activo a{
     font-weight: bolder;
     color: #654328;
-    }
+    } */
 
-    li a:hover{
- font-weight: bolder;
- color: #654328;
-    }
-   
-    .iconos{
-       height: 5vh;
-       weight: 5vw;
-   }
+.iconos {
+    max-height: 54px;
+}
 
-   footer{
+footer {
+    display: flex;
+    flex-flow: row wrap;
     margin-top: 2rem;
-   }
+}
