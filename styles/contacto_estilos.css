@@ -1,35 +1,31 @@
-   section{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;    
-   }
+form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
 
-   form{
-    background-image: url(../img/fondoform.jpeg);
-    background-repeat: no-repeat;
-    background-size: 400px, 400px;
-   }
-
-   form input{
-    size: 30%;
-   }
-
-   h1{
-       text-align: center;
-   }
-   
-   .label{
-    margin: 2%;
-   }
-
-   input{
-    margin: 2%;
-   }
-
-   form div{
+h1 {
     text-align: center;
-   }
+    font-weight: bold;
+}
 
-   .boton{
+.boton {
     font-size: larger;
-   }
+}
+
+@media (max-width: 768px) {
+
+    .object-fit-cover {
+        object-fit: cover;
+    }
+
+    form {
+        padding: 1rem;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
