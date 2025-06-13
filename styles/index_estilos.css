@@ -1,8 +1,13 @@
-section{
+ section{
     display: flex;
     justify-content: center;
     background-color: #fbfff1;
 }
+
 h1{
     text-align: center;
+}
+
+.flechita{
+    background-color: #654328;
 }
