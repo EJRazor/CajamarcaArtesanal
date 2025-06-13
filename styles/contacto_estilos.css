@@ -12,7 +12,15 @@ h1 {
 }
 
 .boton {
+    border-color: #654328;
     font-size: larger;
+    background-color: #654328;
+}
+
+.boton:hover{
+    font-style: bold;
+    background-color: #fbfff1;
+    color: #654328;
 }
 
 @media (max-width: 768px) {
