@@ -28,22 +28,6 @@ form {
     }
 }
 
-/* .boton {
-    border-color: #654328;
-    font-size: larger;
-    background-color: #654328;
-
-    &:hover {
-        font-weight: bold;
-        background-color: #fbfff1;
-        color: #654328;
-    }
-
-    @include mobile{
-        width: 100%;
-    }
-} para revisar si va dentro del form */
-
 .object-fit-cover{
     @include mobile{
         object-fit: cover;
