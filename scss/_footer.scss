@@ -1,0 +1,9 @@
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 2rem;
+
+    .iconos {
+        max-height: 54px;
+    }
+}

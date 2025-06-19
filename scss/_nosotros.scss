@@ -1,0 +1,14 @@
+@import "variables";
+
+#mainn {
+    text-align: center;
+    padding: 2rem;
+
+    section {
+        @include flexrow;
+        background-color: rgb(228, 238, 216);        
+        @include mobile {
+            @include sectionmobile;
+        }
+    }
+}

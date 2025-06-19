@@ -1,0 +1,51 @@
+@import "variables";
+
+form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    @include mobile {
+        padding: 1rem;
+    }
+
+    .boton {
+        border-color: #654328;
+        font-size: larger;
+        background-color: #654328;
+
+        &:hover {
+            font-weight: bold;
+            background-color: #fbfff1;
+            color: #654328;
+        }
+
+        @include mobile {
+            width: 100%;
+        }
+    }
+}
+
+/* .boton {
+    border-color: #654328;
+    font-size: larger;
+    background-color: #654328;
+
+    &:hover {
+        font-weight: bold;
+        background-color: #fbfff1;
+        color: #654328;
+    }
+
+    @include mobile{
+        width: 100%;
+    }
+} para revisar si va dentro del form */
+
+.object-fit-cover{
+    @include mobile{
+        object-fit: cover;
+    }
+}
